@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    background: #eaeaea;
+    font-family: sans-serif;
 }
 
 .App {
@@ -7,6 +9,7 @@ body {
     flex-direction: column;
     flex: 1;
     height: 100vh;
+    width: 100vw;
 }
 
 .AppHeader {
@@ -14,6 +17,8 @@ body {
     flex-direction: row;
     align-items: center;
     border-bottom: 1px solid #ccc;
+    background: #9999CC;
+    color: #fff;
 }
 
 .AppTitle {
@@ -42,6 +47,6 @@ body {
 .MessageWrapper {
     display: flex;
     flex-direction: column;
-    width: 75vw;
+    width: 100vw;
     flex: 1;
 }

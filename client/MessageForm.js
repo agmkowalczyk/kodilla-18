@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './MessageList.css';
+import styles from './MessageForm.css';
 
-class MessageForm extends Component {
+class MessageForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {text: ''};
@@ -28,7 +28,7 @@ class MessageForm extends Component {
           className={styles.MessageInput}
           onChange={e => this.changeHandler(e)}
           value={this.state.text}
-          placeholder='Message'
+          placeholder='Message...'
         />
       </form>
     );
